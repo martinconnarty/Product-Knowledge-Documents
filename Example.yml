@@ -1,0 +1,51 @@
+id: 2349234092345
+
+vendor name: example
+
+product name: example_product
+
+product version: v1.9
+
+author: Martin Connarty
+
+product description: Example Product is used for creating example things. It is primarily used by security teams to do examples and parse other example files
+
+version description: To address the lack of understanding around products for IT and security teams
+
+dependency hash: be2098dfca024bc3e2
+
+dependencies: 
+  - 134521908344
+  - 309657092345
+  - 019983450921
+
+known_domains:
+  - g1.example.com
+  - update.example.com
+  - logging.example.com
+
+known_ips:
+  - 12.34.56.78
+
+user_agents:
+  - random_user agent v1_9
+
+registry_keys:
+  - HKLM/Software/Example
+
+process_names:
+  - unobvious_p2.exe
+  - somethingelse_1.exe
+
+imphashes:
+  - ae821bc2389c923cd
+
+logging details:
+  - Stored in /logging/customer/logs/
+  - Windows Application Logs
+
+vulnerabilities:
+
+  - CVE-2021-12345:CVSS_9
+  - CVE-2022-12346:CVSS_1
+
