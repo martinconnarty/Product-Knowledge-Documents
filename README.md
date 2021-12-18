@@ -1,4 +1,4 @@
-# VendorDetails
+# Vendor Details
 Yaml Files describing specific details of vendor software to aid understanding and investigation
 
 ##
