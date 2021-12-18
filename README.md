@@ -50,7 +50,7 @@ Current fields:
 **user_agents:**
   - Any known user agents that this uses
 
-**registry**keys:**
+**registry_keys:**
   - All of the known registry key locations
 
 **process_names:**
@@ -59,7 +59,7 @@ Current fields:
 **imphashes:**
   - Import hashes of these processes
 
-**logging details:**
+**logging_details:**
   - Details of where logs may be found and what they log
 
 **vulnerabilities:**
