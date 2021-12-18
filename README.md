@@ -6,6 +6,8 @@ Yaml Files describing specific details of vendor software to aid understanding a
 
 https://devblogs.microsoft.com/engineering-at-microsoft/generating-software-bills-of-materials-sboms-with-spdx-at-microsoft/ - OK so maybe there is some work here to standardise this! 
 
+ISO/IEC 5962:2021 - There's an ISO standard and everything!
+
 ##
 Currently experimenting with this as an idea, I don't know if this has been done somewhere else. I'm hoping this could be used for documenting details of products as well as their dependencies to aid investigations and understanding.
 
