@@ -8,48 +8,53 @@ I think this could be done as part of internal development as well as externally
 
 Current fields:
 
-id: An ID field for this particular version
+_id:_
+ -  An ID field for this particular version
 
-vendor name: Self explanatory, may not be a "vendor" per-se, but it should best describe who "owns" it for maintenance
+_vendor name:_
+  - Self explanatory, may not be a "vendor" per-se, but it should best describe who "owns" it for maintenance
 
-product name: Self explanatory
+_product name: _
+- Self explanatory
 
-product version: v1.9
+_product version: _
+- v1.9
 
-author: Martin Connarty
+_author: _
+- Martin Connarty
 
-product description:
+_product description:_
 - A quick description of what the product does and its purpose, and maybe a bit about how it works. I have found this can be difficult to determine sometimes and have had to trawl through websites to find this.
 
-version description: 
+_version description: _
 - Any particular details or changes that were introduced to the version
 
-dependency hash: 
+_dependency hash: _
 - An MD5 hash of the various dependencies listed below, not sure how needed this is so may remove this field
 
-dependencies: 
+_dependencies: _
   - A list of IDs of other products that this depends on
   
-known_domains:
+_known_domains:_
   - Domains that this is know to communicate to, in order to confirm legitimate traffic
 
-known_ips:
+_known_ips:_
   - IP addreses this is known to communicate to, again in order to help confirm legitimate traffic
 
-user_agents:
+_user_agents:_
   - Any known user agents that this uses
 
-registry_keys:
+_registry_keys:_
   - All of the known registry key locations
 
-process_names:
+_process_names:_
   - Names of the processes you are likely to see
 
-imphashes:
+_imphashes:_
   - Import hashes of these processes
 
-logging details:
+_logging details:_
   - Details of where logs may be found and what they log
 
-vulnerabilities:
+_vulnerabilities:_
   - Details of any known vulnerabilities
