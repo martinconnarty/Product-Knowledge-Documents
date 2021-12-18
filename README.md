@@ -1,5 +1,5 @@
 # Vendor Details
-Yaml Files describing specific details of vendor software to aid understanding and investigation
+Yaml Files describing specific details of vendor software to aid understanding and investigation. Essentially standardising a software bill of materials with some extra fields. This
 
 ##
 Currently experimenting with this as an idea, I don't know if this has been done somewhere else. I'm hoping this could be used for documenting details of products as well as their dependencies to aid investigations and understanding.
@@ -8,7 +8,7 @@ I think this could be done as part of internal development as well as externally
 
 ##
 
-I envisage that either vendors or the community publish one of these for every release, with a standardise structure like this then understanding exactly what you have is easy. I'm very guilty of not doing enough research though so if this exists somewhere please let me know!
+I envisage that either vendors or the community publish one of these for every release, with a standardise structure like this then understanding exactly what you have is easy. I'm doing a bit of research around this so will adjust as I learn more or find I'm reinventing the wheel.
 
 ##
 
