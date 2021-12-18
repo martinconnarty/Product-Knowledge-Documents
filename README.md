@@ -2,6 +2,11 @@
 Yaml Files describing specific details of vendor software to aid understanding and investigation. Essentially standardising a software bill of materials with some extra fields that are useful.
 
 ##
+#Updates (as I research this)#
+
+https://devblogs.microsoft.com/engineering-at-microsoft/generating-software-bills-of-materials-sboms-with-spdx-at-microsoft/ - OK so maybe there is some work here to standardise this! 
+
+##
 Currently experimenting with this as an idea, I don't know if this has been done somewhere else. I'm hoping this could be used for documenting details of products as well as their dependencies to aid investigations and understanding.
 
 I think this could be done as part of internal development as well as externally. I'm not a software developer at all, so again maybe there's additional fields which could be of utility. 
