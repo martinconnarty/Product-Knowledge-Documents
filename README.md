@@ -35,9 +35,6 @@ Current fields:
 **version description:**
 - Any particular details or changes that were introduced to the version
 
-**dependency hash:**
-- An MD5 hash of the various dependencies listed below, not sure how needed this is so may remove this field
-
 **dependencies:**
   - A list of IDs of other products that this depends on
   
