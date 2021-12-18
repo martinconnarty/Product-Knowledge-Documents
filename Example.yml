@@ -12,8 +12,6 @@ product description: Example Product is used for creating example things. It is 
 
 version description: To address the lack of understanding around products for IT and security teams
 
-dependency hash: be2098dfca024bc3e2
-
 dependencies: 
   - 134521908344
   - 309657092345
