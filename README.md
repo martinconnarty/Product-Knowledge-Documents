@@ -18,15 +18,18 @@ product version: v1.9
 
 author: Martin Connarty
 
-product description: A quick description of what the product does and its purpose, and maybe a bit about how it works. I have found this can be difficult to determine sometimes and have had to trawl through websites to find this.
+product description:
+- A quick description of what the product does and its purpose, and maybe a bit about how it works. I have found this can be difficult to determine sometimes and have had to trawl through websites to find this.
 
-version description: Any particular details or changes that were introduced to the version
+version description: 
+- Any particular details or changes that were introduced to the version
 
-dependency hash: an MD5 hash of the various dependencies listed below, not sure how needed this is so may remove this field
+dependency hash: 
+- An MD5 hash of the various dependencies listed below, not sure how needed this is so may remove this field
 
 dependencies: 
   - A list of IDs of other products that this depends on
-  - 
+  
 known_domains:
   - Domains that this is know to communicate to, in order to confirm legitimate traffic
 
