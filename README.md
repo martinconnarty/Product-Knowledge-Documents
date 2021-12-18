@@ -6,6 +6,12 @@ Currently experimenting with this as an idea, I don't know if this has been done
 
 I think this could be done as part of internal development as well as externally. I'm not a software developer at all, so again maybe there's additional fields which could be of utility. 
 
+##
+
+I envisage that either vendors or the community publish one of these for every release, with a standardise structure like this then understanding exactly what you have is easy. I'm very guilty of not doing enough research though so if this exists somewhere please let me know!
+
+##
+
 Current fields:
 
 **id:**
