@@ -8,53 +8,53 @@ I think this could be done as part of internal development as well as externally
 
 Current fields:
 
-_id:_
+*id:*
  -  An ID field for this particular version
 
-_vendor name:_
+*vendor name:*
   - Self explanatory, may not be a "vendor" per-se, but it should best describe who "owns" it for maintenance
 
-_product name: _
+*product name:*
 - Self explanatory
 
-_product version: _
+*product version:*
 - v1.9
 
-_author: _
+*author:*
 - Martin Connarty
 
-_product description:_
+*product description:*
 - A quick description of what the product does and its purpose, and maybe a bit about how it works. I have found this can be difficult to determine sometimes and have had to trawl through websites to find this.
 
-_version description: _
+*version description:*
 - Any particular details or changes that were introduced to the version
 
-_dependency hash: _
+*dependency hash:*
 - An MD5 hash of the various dependencies listed below, not sure how needed this is so may remove this field
 
-_dependencies: _
+*dependencies:*
   - A list of IDs of other products that this depends on
   
-_known_domains:_
+*known_domains:*
   - Domains that this is know to communicate to, in order to confirm legitimate traffic
 
-_known_ips:_
+*known_ips:*
   - IP addreses this is known to communicate to, again in order to help confirm legitimate traffic
 
-_user_agents:_
+*user_agents:*
   - Any known user agents that this uses
 
-_registry_keys:_
+*registry*keys:*
   - All of the known registry key locations
 
-_process_names:_
+*process_names:*
   - Names of the processes you are likely to see
 
-_imphashes:_
+*imphashes:*
   - Import hashes of these processes
 
-_logging details:_
+*logging details:*
   - Details of where logs may be found and what they log
 
-_vulnerabilities:_
+*vulnerabilities:*
   - Details of any known vulnerabilities
