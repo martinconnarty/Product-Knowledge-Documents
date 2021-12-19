@@ -1,21 +1,20 @@
 # Vendor Details
-Yaml Files describing specific details of vendor software to aid understanding and investigation. Essentially standardising a software bill of materials with some extra fields that are useful.
+Yaml Files describing specific details of vendor appliances and software to aid understanding and investigation. Essentially standardising a software bill of materials with some extra fields that are useful.
 
 ##
-*Updates (as I research this)*
+*Thoughts and updates as I research this*
 
-https://devblogs.microsoft.com/engineering-at-microsoft/generating-software-bills-of-materials-sboms-with-spdx-at-microsoft/ - OK so maybe there is some work here to standardise this! 
+https://devblogs.microsoft.com/engineering-at-microsoft/generating-software-bills-of-materials-sboms-with-spdx-at-microsoft/ and ISO/IEC 5962:2021 - https://spdx.github.io/spdx-spec/ - The software bill of materials (SBOM) and this standard (SPDX) is designed to standardise an approach to the various dependencies in software. There's some interesting components in this such as "the ability to validate the hashes of all files listed in the SBOM against the hashes of the build drop itself and validate that the digital signature on the SBOM is the trusted signature from Microsoft." 
 
-ISO/IEC 5962:2021 - https://spdx.github.io/spdx-spec/ - There's an ISO standard and everything! Although glancing through this it doesn't look like it'd offer the useful context from a security investigation point of view. 
+That being said, I feel that there's still room for information that's useful from someone who's trying to understand items on their network. Very often in my experience understanding the lines between the legitimate and potentially malicious can be blurred. With the ability to tie processes or network artifacts back to software or specific appliances, the spotlight can focus more on the gaps - or at least the software or appliances that are not authorised to be there or may be out-of-date.
 
-##
-Currently experimenting with this as an idea, I don't know if this has been done somewhere else. I'm hoping this could be used for documenting details of products as well as their dependencies to aid investigations and understanding.
+Rather than relying on vulnerability management tools to actively go out and scan the network for discovery, we could turn it on it's head and use things like the network indicators and/or process names/hashes as a way of generating this insight. 
 
-I think this could be done as part of internal development as well as externally. I'm not a software developer at all, so again maybe there's additional fields which could be of utility. 
+Like the above SBOM standard, I think generating this information in a standard could be done not only for externally available tools but by inhouse software. I'm not a software developer at all, so again maybe there's additional fields which could be of utility. 
 
-##
+I envisage that either vendors or the community publish one of these for every release, with a standardise structure like this then understanding exactly what you have is easy. 
 
-I envisage that either vendors or the community publish one of these for every release, with a standardise structure like this then understanding exactly what you have is easy. I'm doing a bit of research around this so will adjust as I learn more or find I'm reinventing the wheel.
+I'm doing a bit of research around this so will adjust as I learn more or find I'm reinventing the wheel. Perhaps it'll be more appropriate that something like SPDX starts to add other information as an addition - who knows?
 
 ##
 
