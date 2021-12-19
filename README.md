@@ -16,7 +16,7 @@ Rather than relying on vulnerability management tools to actively go out and sca
 
 Like the above SBOM standard, I think generating this information in a standard could be done not only for externally available tools but by inhouse software. I'm not a software developer at all, so again maybe there's additional fields which could be of utility. 
 
-I envisage that either vendors or the community publish one of these for every release, with a standardise structure like this then understanding exactly what you have is easy. 
+I envisage that either vendors or the community publish a standardised structure like this like they do with the SBOM.
 
 I'm doing a bit of research around this so will adjust as I learn more or find I'm reinventing the wheel. Perhaps it'll be more appropriate that something like SPDX starts to add other information as an addition - who knows?
 
