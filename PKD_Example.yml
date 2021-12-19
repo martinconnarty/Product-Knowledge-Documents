@@ -30,8 +30,8 @@ registry_keys:
   - HKLM/Software/Example
   
 storage_locations:
-  - %systemdrive%\program files
-  - %programdata%\examplesoft\
+  - '%systemdrive%\program files'
+  - '%programdata%\examplesoft\'
 
 process_details:
   unobvious_p2.exe:
