@@ -41,8 +41,8 @@ Current fields:
 **version description:**
 - Any particular details or changes that were introduced to the version
 
-**dependencies:**
-  - A list of IDs of other products that this depends on
+**SBOM**
+- A link to the Software Bill of Materials for this software or appliance
   
 **known_domains:**
   - Domains that this is know to communicate to, in order to confirm legitimate traffic
