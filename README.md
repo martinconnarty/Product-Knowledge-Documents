@@ -63,12 +63,12 @@ Current fields:
 
 **process_names:**
   - Names of the processes you are likely to see
-
+  -
 **process_sha256**
- - List of all the SHA256 hashes, things like any DLLs or any other files that were developed as part of this product. This would not extend to the dependencies.
+ - Sub attribution of the process name - List of all the SHA256 hashes, things like any DLLs or any other files that were developed as part of this product. This would not extend to the dependencies.
  
 **imphashes:**
-  - Import hashes of these processes 
+  - Sub attribution of the process name - Import hashes of these processes 
 
 **logging_details:**
   - Details of where logs may be found and what they log
