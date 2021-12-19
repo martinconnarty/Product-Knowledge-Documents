@@ -4,6 +4,8 @@ Yaml Files describing specific details of vendor appliances and software to aid 
 Stored in a "PKD" - Product Knowledge Document, a YAML file with useful fields.
 
 ##
+![PKD doc](PKD.png)
+##
 *Thoughts and updates as I research this*
 
 https://devblogs.microsoft.com/engineering-at-microsoft/generating-software-bills-of-materials-sboms-with-spdx-at-microsoft/ and ISO/IEC 5962:2021 - https://spdx.github.io/spdx-spec/ - The software bill of materials (SBOM) and this standard (SPDX) is designed to standardise an approach to the various dependencies in software. There's some interesting components in this such as "the ability to validate the hashes of all files listed in the SBOM against the hashes of the build drop itself and validate that the digital signature on the SBOM is the trusted signature from Microsoft." 
@@ -19,9 +21,6 @@ I envisage that either vendors or the community publish one of these for every r
 I'm doing a bit of research around this so will adjust as I learn more or find I'm reinventing the wheel. Perhaps it'll be more appropriate that something like SPDX starts to add other information as an addition - who knows?
 
 
-##
-
-![PKD doc](PKD.png)
 ##
 
 Current fields:
