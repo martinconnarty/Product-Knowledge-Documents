@@ -1,5 +1,7 @@
 # Vendor Details
-Yaml Files describing specific details of vendor appliances and software to aid understanding and investigation. Essentially standardising a software bill of materials with some extra fields that are useful.
+Yaml Files describing specific details of vendor appliances and software to aid understanding and investigation. Essentially supporting a software bill of materials with some extra fields that are useful to attribution from process and network details to the software. 
+
+Stored in a "PKD" - Product Knowledge Document, a YAML file with useful fields.
 
 ##
 *Thoughts and updates as I research this*
