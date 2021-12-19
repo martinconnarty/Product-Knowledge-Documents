@@ -26,7 +26,7 @@ I'm doing a bit of research around this so will adjust as I learn more or find I
 
 ##
 
-Current fields:
+Potential fields:
 
 **id:**
  -  An ID field for this particular version
