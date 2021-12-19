@@ -12,10 +12,8 @@ product description: Example Product is used for creating example things. It is 
 
 version description: To address the lack of understanding around products for IT and security teams
 
-dependencies: 
-  - 134521908344
-  - 309657092345
-  - 019983450921
+SBOM:
+  - SBPX_123452.json
 
 known_domains:
   - g1.example.com
@@ -31,12 +29,14 @@ user_agents:
 registry_keys:
   - HKLM/Software/Example
 
-process_names:
-  - unobvious_p2.exe
-  - somethingelse_1.exe
-
-imphashes:
-  - ae821bc2389c923cd
+process_details:
+  unobvious_p2.exe:
+    - process_sha256: ae22348s09234s98234
+    - imphash: ae821bc2389c923cd
+    
+  unobvious_dll.exe:
+    - process_sha256: c32f3n8c09d344972e4
+    - imphash: a83b27ddf37291d34
 
 logging details:
   - Stored in /logging/customer/logs/
