@@ -16,6 +16,10 @@ I envisage that either vendors or the community publish one of these for every r
 
 I'm doing a bit of research around this so will adjust as I learn more or find I'm reinventing the wheel. Perhaps it'll be more appropriate that something like SPDX starts to add other information as an addition - who knows?
 
+
+##
+
+![PKD doc](PKD.png)
 ##
 
 Current fields:
