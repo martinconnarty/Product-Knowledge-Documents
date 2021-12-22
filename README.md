@@ -28,7 +28,7 @@ I'm doing a bit of research around this so will adjust as I learn more or find I
 
 Potential fields:
 
----PRODUCT OVERVIEW---
+###PRODUCT OVERVIEW###
 
 
 **id:**
@@ -61,7 +61,7 @@ Potential fields:
 **core_tech:**
 - Not in the depth of the SBOM, but essentially what it runs on. E.g. Python 3, or Apache on Windows Server. Just to give someone at a glance an idea of what it's core
  
----NETWORK----
+###NETWORK###
 
 **known_domains:**
   - Domains that this is known to communicate to, in order to confirm legitimate traffic
@@ -75,7 +75,7 @@ Potential fields:
 **open_ports:**
  - Any ports that this has open
  
-----HOST---
+###-HOST###
 
 **registry_keys:**
   - All of the known registry key locations
@@ -86,7 +86,7 @@ Potential fields:
 **storage_locations:**
   - Details of where the product stores it's files, e.g. %programdata%/product name
 
----PROCESS----
+###PROCESS###
 
 **process_names:**
   - Names of the processes you are likely to see
@@ -97,7 +97,7 @@ Potential fields:
 **imphashes:**
   - Sub attribution of the process name - Import hashes of these processes 
 
----VERSION---
+###VERSION###
 
 **version description:**
 - Any particular details or changes that were introduced to the version
