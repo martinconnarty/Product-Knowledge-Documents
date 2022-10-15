@@ -1,0 +1,35 @@
+- ID: Network.Firewall.PaloAlto
+
+- Title: Palo Alto Firewall
+
+- Category: Network
+
+- Product: PaloAlto
+
+- FileType: LogSource
+
+- Date: 2022-10-15
+
+- Author:  
+
+- Type: Network
+
+- Collection Options: 
+   - Collection.Syslog
+
+- Log Format Options: 
+   - CEF
+
+- Recommended Events: 
+  - Src: SourceIP
+  - Dst: DestinationIP, 
+  - Time: Timestamp
+
+- Logging Guides: 
+   - "https://docs.paloaltonetworks.com/iot/iot-security-integration/security-information-and-event-management/set-up-siem-for-integration"
+
+- Behavioural Artifacts:
+  - DNS: 
+    - domain1
+    - domain2
+ 
