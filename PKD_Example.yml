@@ -1,53 +1,35 @@
-id: 2349234092345
+- ID: Network.Firewall.PaloAlto
 
-vendor name: example
+- Title: Palo Alto Firewall
 
-product name: example_product
+- Category: Network
 
-product version: v1.9
+- Product: PaloAlto
 
-author: Martin Connarty
+- FileType: LogSource
 
-product description: Example Product is used for creating example things. It is primarily used by security teams to do examples and parse other example files
+- Date: 2022-10-15
 
-version description: To address the lack of understanding around products for IT and security teams
+- Author:  
 
-SBOM:
-  - SBPX_123452.json
+- Type: Network
 
-known_domains:
-  - g1.example.com
-  - update.example.com
-  - logging.example.com
+- Collection Options: 
+   - Aggregation.Syslog
 
-known_ips:
-  - 12.34.56.78
+- Log Format Options: 
+   - CEF
 
-user_agents:
-  - random_user agent v1_9
+- Recommended Events: 
+  - Src: SourceIP
+  - Dst: DestinationIP, 
+  - Time: Timestamp
 
-registry_keys:
-  - HKLM/Software/Example
-  
-storage_locations:
-  - '%systemdrive%\program files'
-  - '%programdata%\examplesoft\'
+- Logging Guides: 
+   - "https://docs.paloaltonetworks.com/iot/iot-security-integration/security-information-and-event-management/set-up-siem-for-integration"
 
-process_details:
-  unobvious_p2.exe:
-    - process_sha256: ae22348s09234s98234
-    - imphash: ae821bc2389c923cd
-    
-  unobvious_dll.exe:
-    - process_sha256: c32f3n8c09d344972e4
-    - imphash: a83b27ddf37291d34
-
-logging details:
-  - Stored in /logging/customer/logs/
-  - Windows Application Logs
-
-vulnerabilities:
-
-  - CVE-2021-12345:CVSS_9
-  - CVE-2022-12346:CVSS_1
-
+- Behavioural Artifacts:
+  - DNS: 
+    - domain1
+    - domain2
+ 
